@@ -2,24 +2,37 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* Element Selectors */
+header {
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+    /* height: 100px; */
+    width: 100%;
+}
+
 h1 {
     text-align: center;
-    color: yellow;
+    color: yellowgreen;
     background-color: blue;
+    font-size: 50px;
 }
 
-img {
-    width: 200px;
-    height: auto;
-}
-
+main {
+    padding: 75px 0;
+  }
+  
 /* Class Selectors */
+.text-center {
+    text-align: center;
+}
+
 .nav {
-    display: inline;
     text-align: right;
+    background-color: coral;
+    font-size: 20px;
 }
 
 .nav li {
@@ -29,12 +42,34 @@ img {
 .icecream {
     margin: 10px;
     padding: 10px;
-    
 }
 
 .icecream img {
-    text-align: center;
-    width: 200px;
+    width: 250px;
     height: auto;
     border: 10px solid black;
+}
+
+.contact-form {
+    text-align: center;
+    border: 5px solid blue;
+    margin: 25px 300px 0;
+    padding: 20px;
+    background-color: cornsilk;
+}
+
+.fieldset {
+    display: block;
+    border: none;
+}
+
+.submit {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: coral;
+    color: lightgoldenrodyellow;
+    text-align: center;
 }
